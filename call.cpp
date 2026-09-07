@@ -20,10 +20,7 @@ void swap_value(int p, int q)
 
 int main()
 {
-    int x= 5;
-    int y= 10;
-    int a= 40;
-    int b= 50;
+    int x= 5, y= 10, a= 40, b= 50;
     cout<< "Call by reference: "<< endl;
     cout<< "Before swap: x= "<< x << ", y= " << y << endl;
     swap_ref(&x, &y);
