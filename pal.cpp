@@ -15,9 +15,9 @@ void num_palindrome(int n)
     }
 
     if (original == rev)
-        cout << original << " is a palindrome number." << endl;
+        cout <<  "It is a palindrome number." << endl;
     else
-        cout << original << " is not a palindrome number." << endl;
+        cout << "It is not a palindrome number." << endl;
 }   
 
 void str_palindrome(string str)
@@ -40,9 +40,9 @@ void str_palindrome(string str)
     }
 
     if (str == rev)
-        cout << str << " is a palindrome string." << endl;
+        cout <<  "It is a palindrome string." << endl;
     else
-        cout << str << " is not a palindrome string." << endl;
+        cout << "It is not a palindrome string." << endl;
 }
 
 int main()
@@ -50,13 +50,13 @@ int main()
     int n;
     string str;
 
-    cout << "Enter a number: ";
+    cout << "Enter a number: " << endl;
     cin >> n;
     num_palindrome(n);
 
-    cout << "Enter a string: ";
+    cout << "Enter a string: " << endl;
     cin >> str;
     str_palindrome(str);
 
     return 0;
-}
+} 
