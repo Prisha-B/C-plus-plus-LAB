@@ -15,9 +15,13 @@ void num_palindrome(int n)
     }
 
     if (original == rev)
+    {
         cout <<  "It is a palindrome number." << endl;
+    }
     else
+    {
         cout << "It is not a palindrome number." << endl;
+    }
 }   
 
 void str_palindrome(string str)
@@ -40,9 +44,13 @@ void str_palindrome(string str)
     }
 
     if (str == rev)
+    {
         cout <<  "It is a palindrome string." << endl;
+    }
     else
+    {
         cout << "It is not a palindrome string." << endl;
+    }
 }
 
 int main()
