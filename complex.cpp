@@ -11,19 +11,17 @@ public:
         imag = i;
     }
 
-    // Unary increment operator
+    
     void operator++() {
         real++;
         imag++;
     }
 
-    // Unary decrement operator
     void operator--() {
         real--;
         imag--;
     }
 
-    // Binary addition operator
     Complex operator+(Complex c) {
         Complex temp;
         temp.real = real + c.real;
@@ -31,7 +29,7 @@ public:
         return temp;
     }
 
-    // Binary subtraction operator
+
     Complex operator-(Complex c) {
         Complex temp;
         temp.real = real - c.real;
