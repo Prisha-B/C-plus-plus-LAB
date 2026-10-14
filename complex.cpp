@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -51,6 +50,7 @@ int main() {
     cout << "Second complex number: ";
     c2.display();
 
+    cout << "\nBinary Operations: " << endl;
     c3 = c1 + c2;
     cout << "Addition: ";
     c3.display();
@@ -59,6 +59,7 @@ int main() {
     cout << "Subtraction: ";
     c3.display();
 
+    cout << "\nUnary Operations: " << endl;
     ++c1;
     cout << "After increment: ";
     c1.display();
